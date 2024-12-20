@@ -1,4 +1,4 @@
-#AI Image Generator
+# AI-Image-Genrator
 
 This project is a web application that allows users to generate images using the OpenAI API. Users can describe the desired image, choose its size, and the application will fetch and display the generated image.
 
