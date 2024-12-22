@@ -13,7 +13,7 @@ This project is a web application that allows users to generate images using the
 Before you begin, ensure you have met the following requirements:
 
 - [Node.js](https://nodejs.org/en/download/) installed on your machine.
-- An OpenAI API key. You can get it by signing up on the [OpenAI website](https://beta.openai.com/signup/).
+- An AI API key. 
 - `npm` or `yarn` package manager.
 
 ## Installation
@@ -33,16 +33,7 @@ Follow these steps to set up and run the project locally:
    npm install
    ```
 
-3. **Set up the environment variables:**
-
-   Create a `.env` file in the root directory and add your OpenAI API key:
-
-   ```env
-   PORT=5000
-   OPENAI_API_KEY=your_openai_api_key_here
-   ```
-
-4. **Start the server:**
+3. **Start the server:**
 
    For production:
 
@@ -56,7 +47,7 @@ Follow these steps to set up and run the project locally:
    npm run dev
    ```
 
-5. **Open the application:**
+4. **Open the application:**
 
    Navigate to `http://localhost:5000` in your browser.
 
@@ -64,7 +55,6 @@ Follow these steps to set up and run the project locally:
 
 ```plaintext
 .
-├── .env                # Environment variables
 ├── index.js            # Entry point of the server
 ├── routes
 │   └── openaiRoutes.js # Routes for OpenAI API requests
@@ -91,7 +81,7 @@ Follow these steps to set up and run the project locally:
 
 - Node.js
 - Express
-- OpenAI API
+- AI API
 - HTML, CSS, JavaScript
 
 ## Dependencies
@@ -104,10 +94,5 @@ Follow these steps to set up and run the project locally:
 ## License
 
 This project is licensed under the ISC License. See the `LICENSE` file for details.
-
-## Acknowledgments
-
-- [Traversy Media](https://www.youtube.com/@TraversyMedia) for the tutorial video.
-- [OpenAI](https://beta.openai.com/) for the API.
 
 Feel free to contribute or suggest improvements!
